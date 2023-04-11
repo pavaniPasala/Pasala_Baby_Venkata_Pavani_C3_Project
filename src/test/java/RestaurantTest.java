@@ -68,7 +68,7 @@ class RestaurantTest {
     public void order_value_should_get_cumulative_total_when_collection_of_items_selected(){
         createRestaurant();
         item = restaurant.getMenu();
-        assertEquals(388,restaurant.getOrderValue(item));
+        assertEquals(430,restaurant.getOrderValue(item));
     }
 
     @Test

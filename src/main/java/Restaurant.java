@@ -15,6 +15,8 @@ public class Restaurant {
         this.location = location;
         this.openingTime = openingTime;
         this.closingTime = closingTime;
+        this.menu.add(new Item("Dosa",20));
+        this.menu.add(new Item("Idly",22));
     }
 
     public void setClosingTime(LocalTime closingTime) {
